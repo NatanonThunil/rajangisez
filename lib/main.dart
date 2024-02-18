@@ -1,10 +1,15 @@
+import 'package:detail/screens/DetailPage.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('SadMan777'),
-          backgroundColor: const Color.fromRGBO(255, 211, 192, 1),
-        ),
-      ),
-    ));
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(scaffoldBackgroundColor: Colors.white),
+      home: DetailPage(),
+    );
+  }
+}

@@ -1,6 +1,6 @@
 {
-    "name": "kemo",
-    "short_name": "kemo",
+    "name": "detail",
+    "short_name": "detail",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-# kemo
+# detail
 
 A new Flutter project.
 
